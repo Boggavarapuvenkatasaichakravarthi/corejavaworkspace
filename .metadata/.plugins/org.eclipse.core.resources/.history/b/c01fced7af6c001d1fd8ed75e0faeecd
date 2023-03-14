@@ -1,0 +1,19 @@
+package com.kani.Corejava.constructor;
+
+public class Employee2 {
+Employee2()
+{
+	System.out.println("Default Constructor");
+}
+public void show()
+{
+	System.out.println("Show Method");
+}
+	public static void main(String[] args) {
+new Employee2();
+Employee2 emp=new Employee2();
+emp.show();
+
+	}
+
+}

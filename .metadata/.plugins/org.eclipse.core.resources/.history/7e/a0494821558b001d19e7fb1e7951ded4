@@ -1,0 +1,16 @@
+@FunctionalInterface  
+interface Person3{
+	 public  void eat();
+  }
+
+public class PersonImplLambda2  {
+
+	public static void main(String[] args) {
+		 
+		Person3 p3=() -> System.out.println("Rich food");
+			
+		
+		p3.eat();
+	}
+
+}

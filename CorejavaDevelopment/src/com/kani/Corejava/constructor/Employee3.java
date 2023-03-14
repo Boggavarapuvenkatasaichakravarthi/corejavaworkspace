@@ -1,0 +1,30 @@
+package com.kani.Corejava.constructor;
+
+public class Employee3 {
+	int eno;
+	String ename;   //Global variables or Instance variables
+	double sal;
+Employee3()
+{
+	System.out.println("Default Constructor");
+}
+Employee3(int eno,String ename,double sal)//Local variables
+{
+	this.eno=eno;
+	this.ename=ename;
+	this.sal=sal;
+}
+public void display()
+{
+	System.out.println("Employee No:"+eno);
+	System.out.println("Employee Name:"+ename);
+	System.out.println("Employee salary:"+sal);
+}
+public static void main(String[] args) {
+new Employee3();
+Employee3 emp3=new Employee3(1,"sai",5000);
+emp3.display();
+
+	}
+
+}

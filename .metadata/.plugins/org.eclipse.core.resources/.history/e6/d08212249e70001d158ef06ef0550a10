@@ -1,0 +1,5 @@
+package com.kani.Corejava.exceptionhandling;
+
+public class ProductNotFoundException {
+
+}

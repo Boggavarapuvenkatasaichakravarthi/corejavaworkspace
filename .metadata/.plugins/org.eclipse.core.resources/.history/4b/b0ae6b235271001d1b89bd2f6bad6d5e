@@ -1,0 +1,9 @@
+package com.kani.Corejava.exceptionhandling;
+
+public class AgeException extends Exception{
+	AgeException(String msg){
+		System.out.println("Hello:"+msg);
+	
+	}
+
+}

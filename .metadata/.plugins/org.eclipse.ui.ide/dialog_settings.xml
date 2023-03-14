@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\sai chakravarthi\OneDrive\Desktop\Automation\CoreJavaTraninig\hibernate-tutorial"/>
+			<item value="C:\Users\sai chakravarthi\OneDrive\Desktop\Automation\CoreJavaTraninig\10-JPAQueries"/>
+			<item value="C:\Users\sai chakravarthi\OneDrive\Desktop\Automation\CoreJavaTraninig\09-JPAManyToManyBI"/>
+			<item value="C:\Users\sai chakravarthi\OneDrive\Desktop\Automation\CoreJavaTraninig\08-JPAOneToManyBI"/>
+			<item value="C:\Users\sai chakravarthi\OneDrive\Desktop\Automation\CoreJavaTraninig\07-JPAOneToOneBI"/>
+			<item value="C:\Users\sai chakravarthi\OneDrive\Desktop\Automation\CoreJavaTraninig\JPA-Relations-20230118T164806Z-001"/>
+			<item value="C:\Users\sai chakravarthi\OneDrive\Desktop\Automation\CoreJavaTraninig\Java8-Programming-Ram-20230103T104827Z-001"/>
+			<item value="D:\Applications\OnLine_Quiz-20221223T161353Z-001"/>
+			<item value="D:\Applications\MobileReacharge-20221223T160510Z-001"/>
+			<item value="D:\Spring-All-Programs\SF06-Spring-MVC-Annotations-Ram-20221223T100726Z-001"/>
+			<item value="D:\Spring-All-Programs\SF06-SpringMVC-Annotations-Kani-20221223T094642Z-001"/>
+			<item value="D:\Spring-All-Programs\MySpringMVC-MySQL9-20221221T151448Z-001"/>
+			<item value="D:\05-JPA-Employee-CRUD-20221214T110509Z-001"/>
+			<item value="D:\06-JPAOneToOneUni-20221214T110715Z-001"/>
+			<item value="D:\04-JPAStarter-Mysql-20221214T102918Z-001"/>
+			<item value="D:\03-Hibernate-Annotations-20221213T111719Z-001"/>
+			<item value="D:\02-HibernateCURD-Project-20221213T104637Z-001"/>
+			<item value="D:\01-Hibernate-Student-Mysql"/>
+			<item value="D:\CoreJAVA-Book-LayersApplication-CURD-4"/>
+			<item value="D:\BookLayersApplicationRam"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="611"/>
+		<item key="DIALOG_Y_ORIGIN" value="269"/>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\sai chakravarthi\OneDrive\Desktop\Automation\SeleniumTraining\application2"/>
+			<item value="C:\Users\sai chakravarthi\OneDrive\Desktop\Automation\SeleniumTraining\.metadata"/>
+			<item value="C:\Users\sai chakravarthi\OneDrive\Desktop\Automation\SeleniumTraining\java Development"/>
+			<item value="C:\Users\sai chakravarthi\OneDrive\Desktop\Automation\SeleniumTraining\JavaDeveloper"/>
+		</list>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="619"/>
+		<item key="DIALOG_Y_ORIGIN" value="91"/>
+		<item key="DIALOG_WIDTH" value="700"/>
+		<item key="DIALOG_HEIGHT" value="642"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

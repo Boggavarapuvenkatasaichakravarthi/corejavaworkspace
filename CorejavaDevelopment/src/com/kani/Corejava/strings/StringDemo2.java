@@ -1,0 +1,29 @@
+package com.kani.Corejava.strings;
+
+public class StringDemo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str1="Java";
+		String str2="Java";
+		if(str1==str2)
+		{
+			System.out.println("True");
+			
+		}
+		else {
+			System.out.println("False");
+			
+		}
+		if(str1.equals(str2))
+		{
+			System.out.println("True");
+			
+		}
+		else {
+			System.out.println("False");
+			
+		}
+	}
+
+}

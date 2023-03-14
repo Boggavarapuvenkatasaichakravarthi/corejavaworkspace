@@ -1,0 +1,27 @@
+package com.kani.Corejava.exceptionhandling;
+import java.util.Scanner;
+public class Vote1 {
+	int age;
+	Scanner sc=new Scanner(System.in);
+	age=sc.nextInt();
+     public void myData() throws AgeException {
+    	 if(age>=18)
+    	 {
+    		 throw new  AgeException("You are Eligible");
+    	 }
+    	 else {
+    		 System.out.println("You are not Eligible");
+    	 }
+     }
+	public static void main(String[] args) {
+       try
+       {
+    	   Vote1 product1= new Vote1();
+    	   product1.myData();
+       }
+       catch(Exception e){
+    	   System.out.println("I can Handle Exception:"+e);
+       }
+	}
+
+}

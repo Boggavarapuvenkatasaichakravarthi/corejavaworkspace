@@ -1,0 +1,16 @@
+package com.kani.Corejava.exceptionhandling;
+
+public class ExceptionDemo1 {
+	String name=null;
+	public void myData()
+	{
+		System.out.println(name.length());
+	}
+
+	public static void main(String[] args) {
+		ExceptionDemo1 ed=new ExceptionDemo1();
+		ed.myData();
+
+	}
+
+}

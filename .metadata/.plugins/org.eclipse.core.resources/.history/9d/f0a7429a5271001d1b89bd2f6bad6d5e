@@ -1,0 +1,25 @@
+package com.kani.Corejava.exceptionhandling;
+
+public class Vote1 {
+     int pno=99;
+     public void myData() throws ProductNotFoundException {
+    	 if(pno>=100)
+    	 {
+    		 throw new ProductNotFoundException("Product is not there");
+    	 }
+    	 else {
+    		 System.out.println("Product is there");
+    	 }
+     }
+	public static void main(String[] args) {
+       try
+       {
+    	   Vote1 product1= new Vote1();
+    	   product1.myData();
+       }
+       catch(Exception e){
+    	   System.out.println("I can Handle Exception:"+e);
+       }
+	}
+
+}

@@ -1,0 +1,61 @@
+
+
+CREATE TABLE IF NOT EXISTS login (
+  USERNAME varchar(20) NOT NULL,
+  PASSWORD varchar(20) NOT NULL,
+  PRIVILEGE varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+INSERT INTO login VALUES
+('admin', 'admin', 'admin'),
+('user', 'user', 'user'),
+('abc', 'abc', 'user');
+
+
+CREATE TABLE IF NOT EXISTS subjects (
+  id int(11) NOT NULL,
+  name varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+INSERT INTO subjects (id, name) VALUES
+(1, 'gk');
+
+
+
+
+
+
+CREATE TABLE IF NOT EXISTS gk (
+QId int(11) NOT NULL,
+  QUESTION varchar(100) NOT NULL,
+  A varchar(50) NOT NULL,
+  B varchar(50) NOT NULL,
+  C varchar(50) NOT NULL,
+  D varchar(50) NOT NULL,
+  ANSWER varchar(5) NOT NULL);
+  
+  
+INSERT INTO gk VALUES(1, 'What is the capital of India ?', 'Mumbai', 'Aurangabad', 'Chennai', 'Delhi', 'D');
+
+INSERT INTO gk VALUES(2, 'What is the national bird of India ?', 'Sparrow', 'KingFisher', 'Peacock', 'Parrot', 'C');
+
+INSERT INTO gk VALUES(3, 'What is national Animal of India', 'Dog', 'Elephant', 'Tiger', 'Lion', 'C');
+
+INSERT INTO gk VALUES(4, 'What is the national language of India?', 'English', 'French', 'Marathi', 'Hindi', 'D');
+
+INSERT INTO gk VALUES(5, 'The term Googly is associated with ?', 'Cricket', 'Football', 'Badminton', 'Hockey', 'A');
+  
+  
+  
+  
+  Indexes for table 'gk'
+--
+ALTER TABLE gk  ADD PRIMARY KEY (QId);
+
+ALTER TABLE gk
+MODIFY QId int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=6;
+  
+   
+

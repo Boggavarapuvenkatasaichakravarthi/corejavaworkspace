@@ -1,0 +1,10 @@
+package com.kani.Corejava.strings;
+
+public class StringClassMethods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
